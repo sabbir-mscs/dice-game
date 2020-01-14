@@ -15,7 +15,7 @@
 }
 
 body {
-    background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(back.jpg);
+    background-image: linear-gradient(rgba(119, 114, 114, 0.5), rgba(62, 20, 20, 0.5)), url(back.jpg);
     background-size: cover;
     background-position: center;
     font-family: Lato;
@@ -25,9 +25,26 @@ body {
     color: #555;
 }
 
+.instructions {
+    width: 15%;
+    text-align: left;
+    position: relative;
+    z-index: 200;
+    padding: 2rem;
+    color: orangered;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.instructions ul li {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 .wrapper {
-    width: 1000px;
+    width: 70%;
     position: absolute;
+    display: inline-block;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
